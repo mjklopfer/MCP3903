@@ -175,6 +175,7 @@ public:
 	void setGain(byte channel, byte gain);
 	void setGain(byte channel, byte gain, byte boost);
 private:
+	//Arduino Uno default SPI pins
     static const int pinMOSI = 11; //MOSI
     static const int pinMISO = 12; //MISO
     static const int pinSPIClock = 13; //SCK
